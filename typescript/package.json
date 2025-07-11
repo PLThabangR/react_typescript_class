@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
    
-    "start": " tsc && node dist/oop.js "
+    "start": " tsc && node dist/classes.js "
   },
   "author": "thabangr",
   "license": "ISC",

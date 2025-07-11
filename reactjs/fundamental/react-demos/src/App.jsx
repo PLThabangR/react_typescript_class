@@ -1,5 +1,6 @@
 
-import Welcome from './components/Welcome'
+import Welcome from './components/demos/Welcome'
+import ProductInfo from './components/demos/ProductInfo'
 import Wikipedia from './components/Wikipedia/Wikipedia'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
     {/* <Wikipedia /> */}
     <Welcome/>
+    <ProductInfo/>
     </>
   )
 }

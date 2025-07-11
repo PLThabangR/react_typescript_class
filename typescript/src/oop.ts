@@ -102,3 +102,28 @@ color = "green"
 console.log(color)
 color = "blue"
 console.log(color)
+
+// Tuple example 
+//Key value pair
+let  myTuple1 :[number , string]=[2,"Yellow"]
+myTuple1.push(1,"name")
+console.log(myTuple1)
+let myTupleArray:(number|string)[]=[]
+myTupleArray.push(2,"Fruits")
+console.log(myTupleArray)
+myTupleArray.push(3,"Cherry")
+myTupleArray.push(4,"Apple")
+myTupleArray.push(5,"Banana")
+
+console.log(myTupleArray)
+
+//Enum is a way to define a set of named constants
+//Enums allow me to goup related values
+//Enum is a readOnly
+
+enum Colors{
+red="red",blue="blue",silver="silver",green="green"
+}
+
+console.log(Colors.red)
+
