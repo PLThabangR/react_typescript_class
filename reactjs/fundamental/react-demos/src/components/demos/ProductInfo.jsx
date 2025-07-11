@@ -36,13 +36,13 @@ const updatedUserinfo=userInfo.map((user)=>{
     }
 })
 
-
-    const displayUserInfo=userInfo.map((user)=>{
+            //Use destructuring
+    const displayUserInfo=userInfo.map(({id,name,age,city})=>{
         return(
-            <ul key={user.id}> 
-                <li>{user.name}</li>
-                <li>{user.age}</li>
-                <li>{user.city}</li>
+            <ul key={id}> 
+                <li>{name}</li>
+                <li>{age}</li>
+                <li>{city}</li>
 
 
                </ul>
