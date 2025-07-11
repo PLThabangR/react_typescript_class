@@ -9,7 +9,7 @@ function App() {
     <>
     {/* <Wikipedia /> */}
     <Welcome/>
-    <ProductInfo/>
+     <ProductInfo/> 
     </>
   )
 }

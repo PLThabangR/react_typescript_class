@@ -1,7 +1,8 @@
 import React from 'react'
-
+import Welcome from './Welcome'
 const ProductInfo = () => {
    const product = ["a","b","c"]
+   let imageAddress= "https://picsum.photos/200/300"
 
    const userInfo=[
     {   
@@ -60,7 +61,10 @@ const updatedUserinfo=userInfo.map((user)=>{
     <main>
        {displayProducts}
        {displayUserInfo}
+       <img src={imageAddress} width={200} height={200}/>
        {console.log("Updated User Info",updatedUserinfo)}
+
+       <Welcome imageAddress={imageAddress} name={"Thabang"} age={25} hobbies={["coding","sleeping","Eating"]}/>
            </main>
   )
 }

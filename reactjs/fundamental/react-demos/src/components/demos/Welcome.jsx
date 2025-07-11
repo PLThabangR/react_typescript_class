@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Welcome = () => {
+const Welcome = ({name,age,hobbies,imageAddress}) => {
     const message ="Hello World";
     const message2= "Welcome to learn react";
 
@@ -22,7 +22,16 @@ const date= new Date()
 
     <p>3*4={multipy(3,4)}</p>
 
+
+
     <h1 className={person}>Hello</h1>
+
+    <h1>Prop drilling</h1>
+    <img src={imageAddress} width={200} height={200}/>
+    
+   <p>{name}</p>
+   <p>{age}</p>
+   <p>{hobbies}</p>
 
 
     </section>
