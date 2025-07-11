@@ -5,6 +5,7 @@ import Wikipedia from './components/Wikipedia/Wikipedia'
 import Rendering from './components/demos/DynamicRendering/PasswordExample/MainCRendering'
 import Weather from './components/demos/DynamicRendering/WeatherExample/Weather'
 import UserStatus from './components/demos/DynamicRendering/UserStatusExample/UserStatus'
+import Styling from './components/demos/styling/Styling'
 
 function App() {
   const password = true
@@ -26,8 +27,11 @@ function App() {
      {/* <Weather temperature={20}/> */}
 
 {/* Dynamic Rendering  Example user staus*/}
-     <UserStatus isAdmin={isAdmin} loggedIn={loggedIn}/>
+     {/* <UserStatus isAdmin={isAdmin} loggedIn={loggedIn}/> */}
 
+
+{/* Inline styling  Example*/}
+<Styling/>
     </>
   )
 }
