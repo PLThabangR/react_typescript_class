@@ -6,6 +6,8 @@ import Rendering from './components/demos/DynamicRendering/PasswordExample/MainC
 import Weather from './components/demos/DynamicRendering/WeatherExample/Weather'
 import UserStatus from './components/demos/DynamicRendering/UserStatusExample/UserStatus'
 import Styling from './components/demos/styling/Styling'
+import ReactIcons from './components/demos/react-icons/ReactIcons'
+import Buttons_main from './components/demos/butttons_and_functions/Buttons_main'
 
 function App() {
   const password = true
@@ -31,7 +33,16 @@ function App() {
 
 
 {/* Inline styling  Example*/}
-<Styling/>
+{/* <Styling/> */}
+
+{/* ReactIcons  Example*/}
+{/*<ReactIcons/>*/}
+
+{/* Button component  Example*/}
+     <Buttons_main/>
+
+
+
     </>
   )
 }
