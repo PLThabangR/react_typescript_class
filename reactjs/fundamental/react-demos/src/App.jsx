@@ -9,6 +9,10 @@ import Styling from './components/demos/styling/Styling'
 import ReactIcons from './components/demos/react-icons/ReactIcons'
 import Buttons_main from './components/demos/butttons_and_functions/Buttons_main'
 
+//State and hook components
+import State_Arrays from './components/state_and_hooks/State_Arrays'
+import State_Objects from './components/state_and_hooks/State_Objects'
+
 function App() {
   const password = true
   const cart = []
@@ -39,8 +43,11 @@ function App() {
 {/*<ReactIcons/>*/}
 
 {/* Button component  Example*/}
-     <Buttons_main/>
+     {/* <Buttons_main/> */}
 
+
+<State_Arrays/>
+<State_Objects/>
 
 
     </>
