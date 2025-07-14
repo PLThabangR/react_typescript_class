@@ -12,6 +12,7 @@ import Buttons_main from './components/demos/butttons_and_functions/Buttons_main
 //State and hook components
 import State_Arrays from './components/state_and_hooks/State_Arrays'
 import State_Objects from './components/state_and_hooks/State_Objects'
+import Todolist from './components/demos/forms/Todolist'
 
 function App() {
   const password = true
@@ -46,9 +47,12 @@ function App() {
      {/* <Buttons_main/> */}
 
 
-<State_Arrays/>
-<State_Objects/>
+{/* <State_Arrays/>
+<State_Objects/> */}
 
+{/* Todo list with forms and state */}
+
+<Todolist/>
 
     </>
   )
