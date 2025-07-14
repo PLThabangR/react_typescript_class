@@ -26,7 +26,7 @@ const Todolist = () => {
  <label>Event name</label>
         <input type="text" value={inputValue} onChange={handleChange}  placeholder="Name of event" />
 
-          <button onSubmit={handleSubmit}>Add todo</button>
+          <button type="submit">Add todo</button>
        </form>
 
          {todo.map((todo)=>(
