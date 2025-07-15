@@ -10,11 +10,15 @@ import ReactIcons from './components/demos/react-icons/ReactIcons'
 import Buttons_main from './components/demos/butttons_and_functions/Buttons_main'
 
 //State and hook components
-import State_Arrays from './components/state_and_hooks/State_Arrays'
-import State_Objects from './components/state_and_hooks/State_Objects'
+import State_Arrays from './components/demos/state_and_hooks/State_Arrays'
+import State_Objects from './components/demos/state_and_hooks/State_Objects'
 import Todolist from './components/demos/forms/Todolist'
 import ProfileForm from './components/demos/forms/profileForm'
 import ShoppingList from './components/demos/forms/shoppingList'
+import FetchData from './components/demos/useEffectHook/FetchData'
+import { UserProvider } from './components/demos/ContextExample/UserContext'
+import UserProfile from './components/demos/ContextExample/UserProfile'
+import UpdateUser from './components/demos/ContextExample/UpdateUser'
 
 function App() {
   const password = true
@@ -57,6 +61,15 @@ function App() {
 <Todolist/>
 <ProfileForm/>
 <ShoppingList/>
+
+{/* Fetching data with use effect */}
+
+{/* <FetchData/> */}
+
+<UserProvider>
+     <UserProfile/>
+     <UpdateUser/>
+</UserProvider>
     </>
   )
 }
