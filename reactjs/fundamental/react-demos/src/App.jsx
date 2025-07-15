@@ -19,6 +19,7 @@ import FetchData from './components/demos/useEffectHook/FetchData'
 import { UserProvider } from './components/demos/ContextExample/UserContext'
 import UserProfile from './components/demos/ContextExample/UserProfile'
 import UpdateUser from './components/demos/ContextExample/UpdateUser'
+import Counter from './components/demos/ReduxExample/Counter'
 
 function App() {
   const password = true
@@ -66,10 +67,14 @@ function App() {
 
 {/* <FetchData/> */}
 
+{/* Using context to manipulate state */}
 <UserProvider>
      <UserProfile/>
      <UpdateUser/>
 </UserProvider>
+
+{/* Using useReducer */}
+<Counter/>
     </>
   )
 }
