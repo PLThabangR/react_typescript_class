@@ -13,6 +13,7 @@ function App() {
       
         <Todo/>
         <Meals/>
+        {console.log("Answer is ",10/2)}
     </>
   )
 }
